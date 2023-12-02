@@ -1,7 +1,7 @@
 import * as request from '../library/request';
+import { host } from './host';
 
-const baseURL = 'http://localhost:3030/data/technique';
-
+const baseURL = `${host}/data/technique`;
 
 export const getAll = async () => {
     const result = await request.get(baseURL);

@@ -1,7 +1,7 @@
 import * as request from '../library/request';
+import { host } from './host';
 
-const baseURL = 'http://localhost:3030/data/purchases';
-
+const baseURL = `${host}/data/purchases`;
 
 export const purchase = (productId, userId) => request.post(`${baseURL}`, { productId, userId });
 

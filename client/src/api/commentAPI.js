@@ -1,6 +1,7 @@
 import * as request from '../library/request';
+import { host } from './host';
 
-const baseURL = 'http://localhost:3030/data/comments';
+const baseURL = `${host}/data/comments`;
 
 export const getAllComments = async (productId) => {
     const query = new URLSearchParams({
