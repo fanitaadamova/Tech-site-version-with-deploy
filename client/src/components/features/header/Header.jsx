@@ -78,9 +78,9 @@ export default function Header() {
                           <Link className="nav-link" to="/add-product">Създай</Link>
                         </li>
                         <li className="nav-item">
-                          <a className="nav-link" href="/profile">
+                          <Link className="nav-link" to="/profile">
                             Профил
-                          </a>
+                          </Link>
                         </li>
                         <li className="nav-item" onClick={logoutHandler} >
                           <Link className="nav-link">
