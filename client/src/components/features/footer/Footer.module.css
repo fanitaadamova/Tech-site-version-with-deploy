@@ -1,0 +1,35 @@
+/** footer **/
+
+.footer {
+    background: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+.copyright {
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
+
+.copyright p {
+    color: #ddd;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    border-top: #ddd solid 1px;
+    padding-top: 25px;
+    font-weight: normal;
+}
+
+.copyright a {
+    color: #ddd;
+}
+
+.copyright a:hover {
+    color: #48ca95;
+}
+
+/** end footer **/

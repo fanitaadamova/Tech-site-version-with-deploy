@@ -1,0 +1,183 @@
+.product_info {
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 15em 10em 15em 10em;
+}
+
+
+.details {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    flex-wrap: wrap;
+    background: #fff;
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+    border: #48ca95 solid 1px;
+    border-radius: 15px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.picture {
+    flex: 1 0 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    flex: 1 1 65%;
+}
+
+.details h3 {
+    color: #121010;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.details p {
+    font-size: 15px;
+    color: #050505;
+    line-height: 30px;
+}
+
+.details i {
+    padding-bottom: 25px;
+    display: block;
+}
+
+.buttons {
+    padding-top: 2em;
+}
+
+.edit,
+.delete,
+.buy {
+    font-size: 15px;
+    background-color: #48ca95;
+    color: #fff !important;
+    padding: 5px 0px;
+    width: 100%;
+    max-width: 120px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    margin: 1.5em;
+    border-radius: 0.3em;
+}
+
+.delete {
+    background-color: rgb(231, 108, 108);
+}
+
+
+.edit:hover,
+.delete:hover,
+.buy:hover {
+    background: #000;
+    color: #fff;
+    transition: ease-in all 0.5s;
+}
+
+.buttons .alreadyBought {
+    font-size: 2em;
+    color: #48ca95;
+    ;
+}
+
+.serverError {
+    padding: 1em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* -----------Comments--------------- */
+.comments {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 50px 10px;
+}
+
+.create_comment {
+    margin: 50px 10px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create_comment label {
+    color: #121010;
+}
+
+
+.comment_info {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.comment_info .email {
+    color: grey;
+}
+
+
+.details_comments h2 {
+
+    font-size: 2em;
+    text-align: center;
+    padding: 1em 0 2em 0;
+}
+.form{   
+    flex: 1 1 50%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.form textarea {
+    flex: 1 1 50%;
+    border: #48ca95 solid 1px;
+    border-radius: 0.3em;
+    width: 40em;
+    height: auto;
+}
+
+.no_comment {
+    text-align: center;
+}
+
+.btn_submit {
+    border: #48ca95 solid 1px;
+    padding: 0 1.5em;
+    background-color: #48ca95;
+    color: #fff;
+    border-radius: 0.3em;
+}
+
+.btn_submit:hover {
+    background-color: black;
+}
+
+.btn_submit:disabled{
+    opacity: 0.7;
+}
+

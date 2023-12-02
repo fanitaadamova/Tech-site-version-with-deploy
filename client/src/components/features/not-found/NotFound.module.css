@@ -1,0 +1,39 @@
+.not_found {
+    background: url(../images/contact_g.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 15em 0;
+    height: 90vh;
+    width: auto;
+}
+
+.page_404 {
+    padding-top: 1em;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.send_btn {
+    font-size: 1em;
+    transition: ease-in all 0.5s;
+    opacity: 0.8;   
+    background-color: #48ca95;
+    color: black;
+    max-width: 100px;
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+    border-radius: 10px;
+    font-weight: 500;  
+}
+
+.send_btn:hover {
+    background-color: #000;
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+
+.send_btn a{
+    color: #fff;
+}

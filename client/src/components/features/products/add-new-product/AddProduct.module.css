@@ -1,0 +1,142 @@
+.product {
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 15em 0;
+}
+
+.product div {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.titlepage h2 {
+    font-size: 35px;
+    color: #090807;
+    line-height: 55px;
+    font-weight: bold;
+    padding: 0;
+    text-transform: uppercase;
+    border-bottom: #48ca95 solid 1px;
+    max-width: 315px;
+    margin: auto;
+}
+
+.product .titlepage h2 {
+    color: black;
+    border-bottom: black#fff solid 1px;
+
+}
+
+
+.main_form {
+    display: flex;
+    align-items: center;
+    padding: 70px 50px;
+    border: black solid 2px;
+    margin: 0 50px;
+}
+
+.main_form .contactus {
+    border: black solid 2px;
+    padding: 0px 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 57px;
+    background: transparent;
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.main_form .textarea {
+    border: black solid 2px;
+    padding: 0px 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    background: transparent;
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 56px;
+    height: 151px;
+}
+
+.main_form textarea {
+    border: black solid 2px;
+}
+
+.main_form .description {
+    height: 10em;
+    width: 100%;
+}
+
+.main_form .send_btn {
+    font-size: 22px;
+    transition: ease-in all 0.5s;
+    background-color: #48ca95;
+    text-transform: uppercase;
+    color: black;
+    padding: 15px 0px;
+    max-width: 226px;
+    width: 100%;
+    display: block;
+    margin-top: 30px !important;
+    margin: 0 auto;
+    border-radius: 40px;
+    font-weight: 500;
+}
+
+.main_form .send_btn:hover {
+    background-color: #000;
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+
+#request *::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+
+.label {
+    color: black;
+    ;
+    font-size: 20px;
+
+}
+
+.errorMessage {
+    color: red;
+    font-size: 1.5em;
+    margin: 0 0 20px 0;
+}
+
+.inputError {
+    border: 1px solid red;
+}
+
+.send_btn:disabled {
+    opacity: 0.5;
+}
+
+
+textarea {
+    resize: none;
+}
+
+.product .main_form .contactus,
+.product .main_form select {
+    background-color: #fff;
+}
+
+.serverError {
+    padding: 1em;
+    font-size: 1.5em;
+    text-align: center;
+}

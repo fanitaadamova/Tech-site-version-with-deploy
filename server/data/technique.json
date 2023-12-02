@@ -1,0 +1,63 @@
+{
+    "53d4dbf5-7f41-47ba-b485-43eccb91cb95": {
+        "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
+        "type": "Лаптоп",
+        "model": "HP NEX-SPR-LT-11HP250G9I3",
+        "year": 2020,
+        "description": "Лаптопът HP 250 G9 предоставя основни бизнес функции в тънък и лек дизайн, който е лесен за носене навсякъде. 15,6-инчовият диагонален дисплей с голямо съотношение екран към тяло, мощен процесор Intel, бърза памет и място за съхранение осигуряват производителност, докато включените портове свързват вашите периферни устройства - всичко това на цена, която можете да оцените.",
+        "price": 235,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGNGXc-5Gry-xDhe1MdHyq_iip8Tc9W_rqTj2dk1mX8VtNkMtmHIfNvET_HRAVqTv8s74&usqp=CAU",
+        "os": "Windows OS",
+        "_createdOn": 1615545143015,
+        "_id": "53d4dbf5-7f41-47ba-b485-43eccb91cb95"
+    },
+    "f5929b5c-bca4-4026-8e6e-c09e73908f77": {
+        "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
+        "type": "Таблет",
+        "model": "Samsung Galaxy Tab A9",
+        "year": 2023,
+        "description": "Galaxy Tab A9, който има размер на екрана от 8,7 инча, предлага разделителна способност от 800 x 1340 пиксела и плътност на пикселите от приблизително 179 PPI на TFT LCD екран. Таблетът, който включва процесор MediaTek Helio G99 и графичен процесор Mali-G57 MC2, е с размери 211 x 124,7 x 8 mm.",
+        "price": 222,
+        "img": "https://www.kaksepravi.org/wp-content/uploads/2023/10/harakterisrika-i-tsena-na-samsung-galaxy-tab-a9.jpg",
+        "os": "Android OS",
+        "_createdOn": 1615545572296,
+        "_id": "f5929b5c-bca4-4026-8e6e-c09e73908f77"
+    }
+    ,
+    "c7f51805-242b-45ed-ae3e-80b686051498": {
+        "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
+        "type": "Компютър",
+        "model": "GAMING League i5-6500",
+        "year": 2023,
+        "description": "Настолен компютър GAMING League QUADCore Intel i5-6500 3.6Ghz TURBO, 16GB RAM DDR4, 1000GB SSD, VIDEO 8GB GDDR5 Radeon RX+ Подарък (клавиатура, мишка).",
+        "price": 890,
+        "img": "https://s13emagst.akamaized.net/products/35828/35827731/images/res_7dda5e376c3fb824e9d62e80b131835a.jpg?width=720&height=720&hash=C909C6F99164F7242A20AFCD0D87F888",
+        "os": "Windows OS",
+        "_createdOn": 1615546332126,
+        "_id": "c7f51805-242b-45ed-ae3e-80b686051498"
+    },
+    "c7f51805-242b-45ed-ae3e-80b68605141b": {
+        "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
+        "type": "Телефон",
+        "model": "Samsung Galaxy s23 ultra",
+        "year": 2023,
+        "description": "Samsung Galaxy s23 ultra прави ясни снимки и видеоклипове от здрач до зори. Най-съвременният и усъвършенстван сензор на камерата и най-бързият процесор на Galaxy се справят отлично при слаба светлина и намаляват шума.",
+        "price": 1950,
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-ultra-5g.jpg",
+        "os": "Android OS",
+        "_createdOn": 1615546332126,
+        "_id": "c7f51805-242b-45ed-ae3e-80b68605141b"
+    },
+    "f5929b5c-bca4-4026-8e6e-c09e73908f60": {
+        "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
+        "type": "Таблет",
+        "model": "Samsung Galaxy Tab A9",
+        "year": 2023,
+        "description": "Galaxy Tab A9, който има размер на екрана от 8,7 инча, предлага разделителна способност от 800 x 1340 пиксела и плътност на пикселите от приблизително 179 PPI на TFT LCD екран. Таблетът, който включва процесор MediaTek Helio G99 и графичен процесор Mali-G57 MC2, е с размери 211 x 124,7 x 8 mm.",
+        "price": 222,
+        "img": "https://www.kaksepravi.org/wp-content/uploads/2023/10/harakterisrika-i-tsena-na-samsung-galaxy-tab-a9.jpg",
+        "os": "Android OS",
+        "_createdOn": 1615545572296,
+        "_id": "f5929b5c-bca4-4026-8e6e-c09e73908f60"
+    }
+}

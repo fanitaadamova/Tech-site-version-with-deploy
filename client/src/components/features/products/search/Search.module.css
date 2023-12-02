@@ -1,0 +1,117 @@
+.three_box {
+    background-color: #fff;
+    padding-top: 90px;
+    min-height: 100vh;
+}
+
+
+.three_box .col-md-4 {
+    padding: 2em;
+}
+
+
+.catalog {
+    background-color: #fff;
+    padding-top: 10em;
+}
+
+.box_text {
+    background: #fff;
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+    border: #48ca95 solid 1px;
+    border-radius: 15px;
+}
+
+.box_text h3 {
+    color: #121010;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.box_text p {
+    font-size: 17px;
+    color: #050505;
+    line-height: 30px;
+}
+
+.box_text i {
+    padding-bottom: 25px;
+    display: block;
+}
+
+
+
+.catalog .col-md-4 {
+    padding: 2em;
+}
+
+
+
+
+.send_btn {
+    font-size: 22px;
+    transition: ease-in all 0.5s;
+    background-color: #48ca95;
+    text-transform: uppercase;
+    color: black;
+    padding: 15px 0px;
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin-top: 100px !important;
+    margin: 100px auto;
+    border-radius: 40px;
+    font-weight: 500;
+
+}
+
+.send_btn:hover {
+    background-color: #000;
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+
+.no_technique {
+    width: auto;
+    height: 100vh;
+    text-align: center;
+    margin: 5em auto;
+}
+
+.no_content {
+    margin: 5em auto;
+    font-size: 2em;
+}
+
+form{
+    padding-top: 2em;
+    display: flex;
+    justify-content: end;
+    gap: 0.3em;
+}
+
+
+form i{
+    height: auto;
+    padding-top: 1em;
+    color: #48ca95;
+}
+
+.myInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('');
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 35%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+    border-radius: 10px;
+  }
+  
+

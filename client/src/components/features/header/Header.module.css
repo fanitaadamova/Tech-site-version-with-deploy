@@ -1,0 +1,112 @@
+
+.logo{
+    width: 5em;
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    padding: 5px 30px;
+    background: transparent;
+    position: absolute;
+    z-index: 999;
+    background: url(../images/banner.jpg);   
+}
+
+.inner_posituong .header {
+    position: inherit;
+    background: #4843a3;
+}
+
+
+
+
+ul.btn {
+    float: right;
+}
+
+ul.btn li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+ul.btn li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+ul.btn li:last-child {
+    padding-right: 0;
+}
+
+.login_btn {
+    padding-left: 50px;
+}
+
+.login_btn a {
+    background-color: #fff;
+    display: inline-block;
+    padding: 7px 35px;
+    border-radius: 10px;
+    color: #292e39 !important;
+    font-size: 17px;
+}
+
+.login_btn a:hover {
+    color: #fff !important;
+    background: #0808ff;
+}
+
+
+
+/*-- navigation--*/
+
+.navigation.navbar {
+    float: right;
+    padding-top: 31px !important;
+    padding: 0;
+   
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link {
+    padding: 0 25px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link:focus,
+.navigation.navbar-dark .navbar-nav .nav-link:hover {
+    color: #51fe44;
+}
+
+.navigation.navbar-dark .navbar-nav .active>.nav-link,
+.navigation.navbar-dark .navbar-nav .nav-link.active,
+.navigation.navbar-dark .navbar-nav .nav-link.show,
+.navigation.navbar-dark .navbar-nav .show>.nav-link {
+    color: #51fe44;
+}
+
+.navbar-expand-md .navbar-nav {
+    padding-right: 10px;
+}
+
+.padd_right {
+    padding-right: 10px;
+}
+
+.sign_btn {
+    padding-left: 50px;
+}
+
+.sign_btn a {
+    display: inline-block;
+    padding: 7px 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.sign_btn a:hover {
+    color: #fff;
+}

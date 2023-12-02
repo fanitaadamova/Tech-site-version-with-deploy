@@ -1,0 +1,59 @@
+.profile {
+    padding-top: 5em;
+    min-height: 100vh;
+}
+
+img {
+    width: 135px;
+    height: auto;
+}
+
+.three_box,
+.created_products,
+.bought_products {
+    background-color: #fff;
+    padding-top: 90px;
+}
+
+
+.three_box .col-md-4,
+.created_products .col-md-4,
+.bought_products .col-md-4 {
+    padding: 1em;
+}
+
+.titlepage h2 {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+.dummy {
+    margin: 0 auto;
+    border: 1px solid #48ca95;
+    width: 35ch;
+    margin-bottom: 4em;
+}
+
+.sum {
+    font-weight: bold;
+}
+
+.no_technique {
+    width: auto;
+    height: 30vh;
+    text-align: center;
+    margin: 3em auto;
+}
+
+.no_content {
+    margin: 5em auto;
+    font-size: 1.5em;
+}
+
+.titlepage:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10em;
+}

@@ -1,0 +1,67 @@
+.three_box {
+    background-color: #fff;
+    padding-top: 90px;
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+
+.three_box .col-md-4 {
+    padding: 2em;
+}
+
+
+.send_btn {
+    font-size: 24px;
+    transition: ease-in all 0.5s;
+    background-color: #48ca95;
+    color: black;
+    padding: 15px 0px;
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.send_btn:hover {
+    background-color: #000;
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+
+.send_btn a {
+    color: #fff;
+}
+
+.titlepage h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.dummy {
+    margin: 0 auto;
+    border: 1px solid #48ca95;
+    width: 40ch;
+    margin-bottom: 4em;
+}
+
+.no_technique {
+    width: auto;
+    height: 100vh;
+    text-align: center;
+    margin: 5em auto;
+}
+
+.no_content {
+    margin: 5em auto;
+    font-size: 2em;
+}
+
+.serverError {
+    padding: 1em;
+    font-size: 1.5em;
+    text-align: center;
+}
