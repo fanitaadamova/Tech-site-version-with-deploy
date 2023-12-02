@@ -112,7 +112,7 @@ export default function LoginForm() {
                   <label htmlFor="password">Парола:</label>
                   <input
                     className={styles.contactus}
-                    type="type"
+                    type="password"
                     name="password"
                     id="password"
                     value={values.password}

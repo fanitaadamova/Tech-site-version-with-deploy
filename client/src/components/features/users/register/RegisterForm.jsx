@@ -168,7 +168,7 @@ export default function RegisterForm() {
                   <label htmlFor="password">Парола:</label>
                   <input
                     className={styles.contactus}
-                    type="type"
+                    type="password"
                     name="password"
                     id="password"
                     value={values.password}
@@ -184,7 +184,7 @@ export default function RegisterForm() {
                   <label htmlFor="rePassword">Повтори парола:</label>
                   <input
                     className={styles.contactus}
-                    type="type"
+                    type="password"
                     name="rePassword"
                     id="rePassword"
                     value={values.rePassword}
