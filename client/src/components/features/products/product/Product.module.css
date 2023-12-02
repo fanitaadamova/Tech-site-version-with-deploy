@@ -4,13 +4,13 @@
 }
 
 .read_more {
-    font-size: 17px;
+    font-size: 15px;
     background-color: #48ca95;
     color: #fff !important;
-    padding: 5px 0px;
+    padding: 3px 0px;
     border-radius: 0.3em;
     width: 100%;
-    max-width: 190px;
+    max-width: 130px;
     text-align: center;
     display: inline-block;
     transition: ease-in all 0.5s;
