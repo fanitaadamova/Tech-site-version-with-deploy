@@ -1333,6 +1333,12 @@
                 phone: '0888789456',
     			hashedPassword: "83313014ed3e2391aa1332615d2f053cf5c1bfe05ca1cbcb5582443822df6eb1"
     		},
+            "847ec027-f659-4086-8032-5173e8f9c87a": {
+                username: "Viktor",
+                email: "viktor@abv.bg",
+                phone: '0888789123',
+                hashedPassword: "83313014ed3e2391aa1332615d2f053cf5c1bfe05ca1cbcb5582443822df6eb1"
+            },
     		"60f0cf0b-34b0-4abd-9769-8c42f830dffc": {
     			username: "Admin",
     			email: "admin@abv.bg",
@@ -1399,14 +1405,42 @@
     		}
     	},
     	comments: {
-    		"0a272c58-b7ea-4e09-a000-7ec988248f66": {
-    			_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    			content: "Great recipe!",
-    			recipeId: "8f414b4f-ab39-4d36-bedb-2ad69da9c830",
-    			_createdOn: 1614260681375,
-    			_id: "0a272c58-b7ea-4e09-a000-7ec988248f66"
-    		}
-    	},
+            "0a272c58-b7ea-4e09-a000-7ec988248f66": {
+                _ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
+                productId: "371e91a9-b76e-4c10-a5d7-5baeb2fa1969",
+                text: "Great product!",
+                _createdOn: 1614260681375,
+                _id: "0a272c58-b7ea-4e09-a000-7ec988248f66"
+            },
+            "2ae94ca6-063a-4b80-9f87-ed0e9f8dfa3a": {
+                _ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
+                productId: "371e91a9-b76e-4c10-a5d7-5baeb2fa1969",
+                text: "Батерията е доста слаба, едва издържа 24ч. при средно потребление. Това е най-големият недостатък. Приятен дизайн, но корпусът лесно се драска. Някои функции не работят добре, не се поддържат за съответния модел телефон или се интегрират само със Samsung устройства, или пък не се поддържат за българския пазар. Удобни функции като входящи/изходящи разговори. Липсват апове за Viber, teams, messenger т.е. може да се отговаря само на получени съобшщения, но не и да се инициират такива. ",
+                _createdOn: 1701810794739,
+                _id: "2ae94ca6-063a-4b80-9f87-ed0e9f8dfa3a"
+            },
+            "11b3dd3e-f5df-4562-a16a-e8f2957c4450": {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
+                productId: "7cc99037-97eb-4af0-a041-4cd487c72cd7",
+                text: "На борда си разполага с чипсет Exynos 1380, който трябва да е с 25% по-високопроизводителен от предходния 1280 в А53. Към него има 8 GB RAM + 128 или 256 GB вградена памет + microSD слот. Тройната камера има нов 50 МР сензор, премахнат е дълбочинният сензор и има само още две други камери - 12 МР с ултраширок обхват и 5 МР за макро снимки. Поддържа се 4K видеозапис и с основната, и с предната камера. Батерията е с капацитет 5000 mAh с 25 W зареждане и може да бъде заредена за 30 минути до 50%. Моделът излиза с Android 13, покрит от най-актуалния One UI 5.1, като Samsung обещава 4 години ъпдейти на Android версията и 5 години ъпдейти по сигурността.",
+                _createdOn: 1701811740401,
+                _id: "11b3dd3e-f5df-4562-a16a-e8f2957c4450"
+            },
+            "a69b1554-3b8e-4981-91f3-92044373cfd7": {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
+                productId: "371e91a9-b76e-4c10-a5d7-5baeb2fa1416",
+                text: "Apple Watch Series 8 е водоустойчив до 50 метра, което го прави идеален за потребители, които обичат да плуват или да се потапят. Това означава, че часовникът може да бъде носен в басейн, море или в други водни среди без никакви проблеми",
+                _createdOn: 1701812103562,
+                _id: "a69b1554-3b8e-4981-91f3-92044373cfd7"
+            },
+            "2c898d7f-96a8-4b26-8fd0-f9277a71678b": {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
+                productId: "371e91a9-b76e-4c10-a5d7-5baeb2fa1416",
+                text: "Ползвам часовника от няколко месеца и е страхотен",
+                _createdOn: 1701812151882,
+                _id: "2c898d7f-96a8-4b26-8fd0-f9277a71678b"
+            }
+        },
     	records: {
     		i01: {
     			name: "John1",
@@ -1664,67 +1698,67 @@
     		}
     	},
         technique: {
-    		"53d4dbf5-7f41-47ba-b485-43eccb91cb95": {
-    			_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    			type: "Лаптоп",
-    			model: "HP NEX-SPR-LT-11HP250G9I3",
-    			year: 2020,
-    			description: "Лаптопът HP 250 G9 предоставя основни бизнес функции в тънък и лек дизайн, който е лесен за носене навсякъде. 15,6-инчовият диагонален дисплей с голямо съотношение екран към тяло, мощен процесор Intel, бърза памет и място за съхранение осигуряват производителност, докато включените портове свързват вашите периферни устройства - всичко това на цена, която можете да оцените.",
-    			price: 235,
-    			img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGNGXc-5Gry-xDhe1MdHyq_iip8Tc9W_rqTj2dk1mX8VtNkMtmHIfNvET_HRAVqTv8s74&usqp=CAU",
-    			os: "Windows OS",
-    			_createdOn: 1615545143015,
-    			_id: "53d4dbf5-7f41-47ba-b485-43eccb91cb95"
-    		},
-    		"f5929b5c-bca4-4026-8e6e-c09e73908f77": {
-    			_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    			type: "Таблет",
-    			model: "Samsung Galaxy Tab A9",
-    			year: 2023,
-    			description: "Galaxy Tab A9, който има размер на екрана от 8,7 инча, предлага разделителна способност от 800 x 1340 пиксела и плътност на пикселите от приблизително 179 PPI на TFT LCD екран. Таблетът, който включва процесор MediaTek Helio G99 и графичен процесор Mali-G57 MC2, е с размери 211 x 124,7 x 8 mm.",
-    			price: 222,
-    			img: "https://www.kaksepravi.org/wp-content/uploads/2023/10/harakterisrika-i-tsena-na-samsung-galaxy-tab-a9.jpg",
-    			os: "Android OS",
-    			_createdOn: 1615545572296,
-    			_id: "f5929b5c-bca4-4026-8e6e-c09e73908f77"
-    		},
-    		"c7f51805-242b-45ed-ae3e-80b68605141b": {
-    			_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    			type: "Лаптоп",
-    			model: "GAMING League i5-6500",
-    			year: 2023,
-    			description: "Настолен компютър GAMING League QUADCore Intel i5-6500 3.6Ghz TURBO, 16GB RAM DDR4, 1000GB SSD, VIDEO 8GB GDDR5 Radeon RX+ Подарък (клавиатура, мишка).",
-    			price: 890,
-    			img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRTrx60Hp3T6J13JswX6F_6GqH89acg6ToiA&usqp=CAU",
-    			os: "Windows OS",
-    			_createdOn: 1615546332126,
-    			_id: "c7f51805-242b-45ed-ae3e-80b68605141b"
-    		},
-    		"c7f51805-242b-45ed-ae3e-80b686051498": {
-    			_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    			type: "Телефон",
-    			model: "Samsung Galaxy s23 ultra",
-    			year: 2023,
-    			description: "Samsung Galaxy s23 ultra прави ясни снимки и видеоклипове от здрач до зори. Най-съвременният и усъвършенстван сензор на камерата и най-бързият процесор на Galaxy се справят отлично при слаба светлина и намаляват шума.",
-    			price: 1950,
-    			img: "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-ultra-5g.jpg",
-    			os: "Android OS",
-    			_createdOn: 1615546332126,
-    			_id: "c7f51805-242b-45ed-ae3e-80b686051498"
-    		},
+            "53d4dbf5-7f41-47ba-b485-43eccb91cb95": {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
+                type: "Лаптоп",
+                model: "HP NEX-SPR-LT-11HP250G9I3",
+                year: 2020,
+                description: "Лаптопът HP 250 G9 предоставя основни бизнес функции в тънък и лек дизайн, който е лесен за носене навсякъде. 15,6-инчовият диагонален дисплей с голямо съотношение екран към тяло, мощен процесор Intel, бърза памет и място за съхранение осигуряват производителност, докато включените портове свързват вашите периферни устройства - всичко това на цена, която можете да оцените.",
+                price: 235,
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGNGXc-5Gry-xDhe1MdHyq_iip8Tc9W_rqTj2dk1mX8VtNkMtmHIfNvET_HRAVqTv8s74&usqp=CAU",
+                os: "Windows OS",
+                _createdOn: 1615545143015,
+                _id: "53d4dbf5-7f41-47ba-b485-43eccb91cb95"
+            },
+            "f5929b5c-bca4-4026-8e6e-c09e73908f77": {
+                _ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
+                type: "Таблет",
+                model: "Samsung Galaxy Tab A9",
+                year: 2023,
+                description: "Galaxy Tab A9, който има размер на екрана от 8,7 инча, предлага разделителна способност от 800 x 1340 пиксела и плътност на пикселите от приблизително 179 PPI на TFT LCD екран. Таблетът, който включва процесор MediaTek Helio G99 и графичен процесор Mali-G57 MC2, е с размери 211 x 124,7 x 8 mm.",
+                price: 222,
+                img: "https://www.kaksepravi.org/wp-content/uploads/2023/10/harakterisrika-i-tsena-na-samsung-galaxy-tab-a9.jpg",
+                os: "Android OS",
+                _createdOn: 1615545572296,
+                _id: "f5929b5c-bca4-4026-8e6e-c09e73908f77"
+            },
+            "c7f51805-242b-45ed-ae3e-80b68605141b": {
+                _ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
+                type: "Лаптоп",
+                model: "GAMING League i5-6500",
+                year: 2023,
+                description: "Настолен компютър GAMING League QUADCore Intel i5-6500 3.6Ghz TURBO, 16GB RAM DDR4, 1000GB SSD, VIDEO 8GB GDDR5 Radeon RX+ Подарък (клавиатура, мишка).",
+                price: 890,
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRTrx60Hp3T6J13JswX6F_6GqH89acg6ToiA&usqp=CAU",
+                os: "Windows OS",
+                _createdOn: 1615546332126,
+                _id: "c7f51805-242b-45ed-ae3e-80b68605141b"
+            },
+            "c7f51805-242b-45ed-ae3e-80b686051498": {
+                _ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
+                type: "Телефон",
+                model: "Samsung Galaxy s23 ultra",
+                year: 2023,
+                description: "Samsung Galaxy s23 ultra прави ясни снимки и видеоклипове от здрач до зори. Най-съвременният и усъвършенстван сензор на камерата и най-бързият процесор на Galaxy се справят отлично при слаба светлина и намаляват шума.",
+                price: 1950,
+                img: "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-ultra-5g.jpg",
+                os: "Android OS",
+                _createdOn: 1615546332126,
+                _id: "c7f51805-242b-45ed-ae3e-80b686051498"
+            },
             "f5929b5c-bca4-4026-8e6e-c09e73908f60": {
-    			_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    			type: "Таблет",
-    			model: "Samsung Galaxy Tab A9",
-    			year: 2023,
-    			description: "Galaxy Tab A9, който има размер на екрана от 8,7 инча, предлага разделителна способност от 800 x 1340 пиксела и плътност на пикселите от приблизително 179 PPI на TFT LCD екран. Таблетът, който включва процесор MediaTek Helio G99 и графичен процесор Mali-G57 MC2, е с размери 211 x 124,7 x 8 mm.",
-    			price: 250,
-    			img: "https://www.kaksepravi.org/wp-content/uploads/2023/10/harakterisrika-i-tsena-na-samsung-galaxy-tab-a9.jpg",
-    			os: "Android OS",
-    			_createdOn: 1615545572296,
-    			_id: "f5929b5c-bca4-4026-8e6e-c09e73908f60"
-    		},
-            "371e91a9-b76e-4c10-a5d7-5baeb2fa1416" : {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
+                type: "Таблет",
+                model: "Samsung Galaxy Tab A9",
+                year: 2023,
+                description: "Galaxy Tab A9, който има размер на екрана от 8,7 инча, предлага разделителна способност от 800 x 1340 пиксела и плътност на пикселите от приблизително 179 PPI на TFT LCD екран. Таблетът, който включва процесор MediaTek Helio G99 и графичен процесор Mali-G57 MC2, е с размери 211 x 124,7 x 8 mm.",
+                price: 250,
+                img: "https://www.kaksepravi.org/wp-content/uploads/2023/10/harakterisrika-i-tsena-na-samsung-galaxy-tab-a9.jpg",
+                os: "Android OS",
+                _createdOn: 1615545572296,
+                _id: "f5929b5c-bca4-4026-8e6e-c09e73908f60"
+            },
+            "371e91a9-b76e-4c10-a5d7-5baeb2fa1416": {
                 _ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
                 type: "Смарт часовник",
                 model: "Apple Watch Series 8",
@@ -1732,13 +1766,43 @@
                 description: "Размер\n41mm\nЦвят\nStarlight\nМодел\nGPS\nРазмер\n41 mm\nBand Type\nSport Loop\nРазмер на корпуса\n41mm\nМатерия\nАлуминий\nМатерия на каишката\nfluoroelastomer\n",
                 price: "699",
                 img: "https://istyle.bg/pub/media/catalog/product/cache/image/400x400/beff4985b56e3afdbeabfc89641a4582/c/z/czcs_watchs8_gps_q422_41mm_starlight_aluminum_starlight_sport_band_pdp_image_position-1_t_2_1.jpg",
-                os: "ios",
+                os: "IOS",
                 _createdOn: 1701183313033,
                 _id: "371e91a9-b76e-4c10-a5d7-5baeb2fa1416"
             },
-    	},
-        purchases:{
-           
+            "371e91a9-b76e-4c10-a5d7-5baeb2fa1969": {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
+                type: "Смарт часовник",
+                model: "Galaxy Watch5",
+                year: 2023,
+                description: "Водоустойчив 27, с по-здрав преден дисплей, изработен от първокласен сапфирен кристал, който е 1,6 пъти по-устойчив на надраскване. 28, 29 За да устои на всички предизвикателства, които ти сервира денят.Отнема около 30 минути, за да заредиш батерията от 0 до 45%. Да, правилно прочете. С по-голяма батерия от своите предшественици и бързо зареждане, няма да трябва да чакаш дълго преди да продължиш напред.",
+                price: "499",
+                img: "https://images.samsung.com/is/image/samsung/p6pim/bg/2208/gallery/bg-galaxy-watch5-40mm-sm-r900nzsaeue-533200400?$1300_1038_PNG$",
+                os: "Android OS",
+                _createdOn: 1701183313033,
+                _id: "371e91a9-b76e-4c10-a5d7-5baeb2fa1969"
+            },
+            "7cc99037-97eb-4af0-a041-4cd487c72cd7": {
+                _ownerId: "847ec027-f659-4086-8032-5173e8f9c87a",
+                type: "Телефон",
+                model: "Samsung A54",
+                year: "2023",
+                description: "Смартфон Samsung Galaxy A54, 128GB, 8GB RAM, 5G, Awesome Graphite. Продукт със следи от употреба, опаковка в добро състояние, фини драскотини по екрана, фини драскотини на гърба, фини драскотини по ръбовете, използвани аксесоари",
+                price: "639",
+                img: "https://s13emagst.akamaized.net/products/53851/53850764/images/res_8f935a1203d109bcdd68aa63c5fd0715.png?width=450&height=450&hash=268ED8AED3B4D228911CD782299E975D",
+                os: "Android OS",
+                _createdOn: 1701811504728,
+                _id: "7cc99037-97eb-4af0-a041-4cd487c72cd7"
+            }
+        },
+        purchases: {
+            "554625b8-dc67-4923-a1ca-549d32bcdb8a": {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
+                productId: "371e91a9-b76e-4c10-a5d7-5baeb2fa1416",
+                userId: "35c62d76-8152-4626-8712-eeb96381bea8",
+                _createdOn: 1701811882894,
+                _id: "554625b8-dc67-4923-a1ca-549d32bcdb8a"
+            }
         },
     };
     var rules$1 = {
