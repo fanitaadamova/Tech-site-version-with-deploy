@@ -101,7 +101,7 @@ export default function ProductDetails() {
 
 
     // ADD Comments
-    const addCommentHandler = async (values) => {
+    const addCommentHandler = async () => {
         const newComment = await commentAPI.create(productId, values.comment);
 
         const email = auth.email;
