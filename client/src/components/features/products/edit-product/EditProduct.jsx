@@ -1,8 +1,9 @@
 import styles from './EditProduct.module.css';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
 import * as techniqueAPI from '../../../../api/techniqueAPI';
+import { AuthContext } from '../../../../contexts/AuthContext';
 import useForm from '../../../../hooks/useForm';
 import Loader from '../../../shared/Loader';
 
@@ -10,6 +11,7 @@ import formInitialState from '../utils/initialFormValues';
 
 export default function EditProduct() {
     const navigate = useNavigate();
+    const { auth } = useContext(AuthContext);
 
     const { productId } = useParams();
     const [isLoading, setIsLoading] = useState(true);
@@ -22,7 +24,10 @@ export default function EditProduct() {
         setIsLoading(true);
 
         techniqueAPI.getOne(productId)
-            .then(result => setProductInfo(result))
+            .then((result) => {
+                if (result._ownerId != auth._id) { navigate('/not-fond'); }
+                setProductInfo(result);
+            })
             .catch(err => {
                 console.log();
                 setHasServerError(true);
@@ -31,7 +36,7 @@ export default function EditProduct() {
             })
             .finally(() => setIsLoading(false));
 
-    }, [productId]);
+    }, [productId, auth._id, navigate]);
 
     const submitHandler = (values) => {
 
